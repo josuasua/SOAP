@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="49877c97-c22f-422b-a8b2-d5061731d2fc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="GestionBibliotecaMVC" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59380/EjemplarService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EjemplarService.xsd" MetadataType="Schema" ID="3b49e4a5-5f82-42b6-a0c2-df02c3fb5ba1" SourceId="1" SourceUrl="http://localhost:59380/EjemplarService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EjemplarService.disco" MetadataType="Disco" ID="e47e5eb0-996f-4523-b538-486527081330" SourceId="1" SourceUrl="http://localhost:59380/EjemplarService.svc?disco" />
+    <MetadataFile FileName="EjemplarService1.xsd" MetadataType="Schema" ID="868e7416-5ba9-4605-9275-d848c72ba490" SourceId="1" SourceUrl="http://localhost:59380/EjemplarService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EjemplarService.wsdl" MetadataType="Wsdl" ID="762fbb3d-702c-4640-85c3-bdd8ef628b21" SourceId="1" SourceUrl="http://localhost:59380/EjemplarService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
